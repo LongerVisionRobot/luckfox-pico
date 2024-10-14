@@ -279,12 +279,12 @@ ifeq ($(SYSDRV_BUILD_RECOVERY),y)
 BUSYBOX_CFG := config_tiny_arm
 endif
 BUSYBOX_CFG ?= config_normal
-BUSYBOX_VER ?= busybox-1.27.2
+BUSYBOX_VER ?= busybox-1.37.0
 BUSYBOX_DIR := $(SYSDRV_DIR)/source/busybox
 SYSDRV_BUSYBOX_OBJS_OUTPUT_DIR ?= $(BUSYBOX_DIR)/objs_$(BUSYBOX_CFG)
 
 BUILDROOT_CFG ?= config_normal
-BUILDROOT_VER ?= buildroot-2023.02.6
+BUILDROOT_VER ?= buildroot-2024.05.3
 BUILDROOT_DIR := $(SYSDRV_DIR)/source/buildroot
 
 UBUNTU_VER ?= luckfox-ubuntu-22.04.3
